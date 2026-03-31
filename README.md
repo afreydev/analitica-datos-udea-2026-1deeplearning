@@ -9,7 +9,7 @@ Modelos de red neuronal para predecir la probabilidad de que un estudiante admit
 
 ## Notebook
 
-`prediccion_graduacion_final.ipynb` — contiene el pipeline completo: limpieza, encoding, entrenamiento y evaluación de dos modelos:
+`prediccion_graduacion.ipynb` — contiene el pipeline completo: limpieza, encoding, entrenamiento y evaluación de dos modelos:
 
 - **Exp A — MLP:** red densa sobre el vector de features OHE + numéricas
 - **Exp B — Multimodal:** mismo vector + embedding aprendido para el código de programa (AUC = 0.77)
@@ -24,3 +24,8 @@ pandas
 numpy
 matplotlib
 ```
+
+## Integrantes
+
+- Camilo Valencia
+- Angel Rey
